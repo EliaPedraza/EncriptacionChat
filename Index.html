@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria MiMascota</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Logo.png" alt="Logo de Veterinaria MiMascota" class="logo">
+        <h1>Veterinaria MiMascota</h1>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>En Veterinaria MiMascota, nos dedicamos a cuidar a tus mejores amigos. Ofrecemos una amplia gama de servicios para mantener a tus mascotas saludables y felices.</p>
+        </section>
+
+        <section class="services">
+            <h2>Servicios</h2>
+            <div class="service-item">
+                <img src="Imagenes/pet1.jpg" alt="Consulta Veterinaria">
+                <h3>Consulta Veterinaria</h3>
+                <p>Consulta con nuestros especialistas para el bienestar de tu mascota.</p>
+            </div>
+            <div class="service-item">
+                <img src="Imagenes/pet2.jpg" alt="Vacunación">
+                <h3>Vacunación</h3>
+                <p>Mantén a tus mascotas protegidas con nuestras vacunas.</p>
+            </div>
+            <div class="service-item">
+                <img src="Imagenes/pet3.jpg" alt="Peluquería Canina">
+                <h3>Peluquería Canina</h3>
+                <p>Servicios de peluquería para que tu mascota luzca siempre bien.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: info@mimascotaveterinaria.com</p>
+        <p>Derechos de autor &copy; 2024 Veterinaria MiMascota</p>
+    </footer>
+
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <h3>Chat</h3>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <!-- Mensajes del chat -->
+        </div>
+        <input type="text" id="message-input" placeholder="Escribe tu mensaje...">
+        <button id="send-button">Enviar</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+    <script src="utils.js"></script>
+
+</body>
+</html>
